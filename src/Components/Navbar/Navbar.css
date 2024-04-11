@@ -9,23 +9,31 @@ nav{
     left: 0;
     z-index: 10;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    padding-top: 15px;
+    margin: 25px 20px;
+}
+/* nav ul .list{
+    display: flex;
+    
+} */
+li{
+    display: inline;
+    padding-left: 50px;
 }
 ul li{
     cursor: pointer;
     margin-left: 10px;
-     
-    
 }
+
+
 ul li:hover{
     transform: scale(1.1);
     /* text-decoration: underline; */
-   
+
 }
 
 .nav-btns{
@@ -44,7 +52,7 @@ ul li:hover{
 
 .log-in-btn{
     width: 100px;
-    
+
     padding: 7px;
     border-radius: 20px;
     cursor: pointer;
@@ -64,5 +72,5 @@ ul li:hover{
     height: 60px;
     cursor: pointer;
     color: #fff;
-    
+
   }

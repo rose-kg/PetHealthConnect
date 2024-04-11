@@ -9,12 +9,12 @@ const Navbar = () => {
     <nav className='container'>
         <ul>
             <img src={logo} alt="" className='logo'/>
-            {/* <div className='list'> */}
+            <div className='list'>
             <li>Home</li>
             <li>About us</li>
             <li>FAQ</li>
             <li>Contact us</li>
-            {/* </div> */}
+            </div>
             <div className='nav-btns'>
             <li><button className='account-btn'>Create Account</button></li>
             <li><button className='log-in-btn'>Log in</button></li>
